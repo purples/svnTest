@@ -16,6 +16,7 @@
 		393936491E8373930006D880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393936471E8373930006D880 /* LaunchScreen.storyboard */; };
 		393936541E8373930006D880 /* textTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393936531E8373930006D880 /* textTests.m */; };
 		3939365F1E8373930006D880 /* textUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3939365E1E8373930006D880 /* textUITests.m */; };
+		396208891EB2DB6A00A4AC6A /* TesxtVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 396208881EB2DB6A00A4AC6A /* TesxtVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3939365A1E8373930006D880 /* textUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3939365E1E8373930006D880 /* textUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textUITests.m; sourceTree = "<group>"; };
 		393936601E8373930006D880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396208871EB2DB6A00A4AC6A /* TesxtVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesxtVC.h; sourceTree = "<group>"; };
+		396208881EB2DB6A00A4AC6A /* TesxtVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TesxtVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				393936401E8373930006D880 /* ViewController.m */,
 				3916FE761E9B221B00585139 /* UIView+Color.h */,
 				3916FE771E9B221B00585139 /* UIView+Color.m */,
+				396208871EB2DB6A00A4AC6A /* TesxtVC.h */,
+				396208881EB2DB6A00A4AC6A /* TesxtVC.m */,
 				393936421E8373930006D880 /* Main.storyboard */,
 				393936451E8373930006D880 /* Assets.xcassets */,
 				393936471E8373930006D880 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396208891EB2DB6A00A4AC6A /* TesxtVC.m in Sources */,
 				3916FE781E9B221B00585139 /* UIView+Color.m in Sources */,
 				393936411E8373930006D880 /* ViewController.m in Sources */,
 				3939363E1E8373930006D880 /* AppDelegate.m in Sources */,

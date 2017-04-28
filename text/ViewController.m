@@ -31,7 +31,7 @@
     UIView *vi = [[UIView alloc] initWithFrame:CGRectZero];
     [self.view addSubview:vi];
     
-
+    NSLog(@"text");
 }
 
 
